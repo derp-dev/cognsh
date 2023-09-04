@@ -1,0 +1,16 @@
+
+________
+!#bin/bash
+py -m pip install nvidia-pyindex --extra-index-url https://pypi.ngc.nvidia.com
+py -m pip install nvidia-cuda-runtime-cu12
+https://docs.djangoproject.com/en/4.1/topics/
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+________
+!#bin/bash
+# django init
+django-admin startproject cognshell
+cd cognshell
+py manage.py runserver # port number 8000 by default
+py manage.py startapp cognsh
+mkdir templates && cd templates && echo loremipsum > index.html
+

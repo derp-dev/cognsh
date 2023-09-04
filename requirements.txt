@@ -1,0 +1,24 @@
+google-generativeai
+jupyter
+jupyterLab
+requests
+numpy
+matplotlib
+pandas
+scipy
+scikit-learn
+scikit-image
+sympy
+cython
+openai
+openai[embeddings]
+openai[wandb]
+openai[datalib]
+openai[api]
+playwright
+playwright[firefox]
+playwright[webkit]
+playwright[chromium]
+django
+mysqlclient # see struct.txt for pre-pip structs
+mod-wsgi 4.9.4
