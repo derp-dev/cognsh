@@ -1,7 +1,7 @@
-google-generativeai
+ctransformers
 jupyter
 jupyterLab
-requests
+requests  
 numpy
 matplotlib
 pandas
@@ -12,13 +12,43 @@ sympy
 cython
 openai
 openai[embeddings]
-openai[wandb]
 openai[datalib]
 openai[api]
 playwright
-playwright[firefox]
 playwright[webkit]
 playwright[chromium]
-django
+django[all] # see struct.txt for pre-pip structs
 mysqlclient # see struct.txt for pre-pip structs
-mod-wsgi 4.9.4
+mariadb[all] # see struct.txt for pre-pip structs
+mod-wsgi # see struct.txt for pre-pip structs
+mod_ssl # see struct.txt for pre-pip structs
+mod_rewrite # see struct.txt for pre-pip structs
+mod_deflate # see struct.txt for pre-pip structs
+llama-cpp-python
+google.generativeai
+cohere
+apache-airflow
+apache-airflow-providers-http 
+requests_toolbelt
+aiohttp
+asgiref
+litellm
+openllm
+# langchain  ## see struct.txt for pre-pip structs
+git+https://github.com/go-skynet/LocalAI
+git+https://github.com/oobabooga/text-generation-webui
+git+https://github.com/kubernetes-sigs/kind
+git+https://github.com/stochasticai/xTuring
+git+https://github.com/xlang-ai/xlang
+git+https://github.com/imartinez/privateGPT
+
+
+
+# https://continue.dev/docs/walkthroughs/codellama https://github.com/continuedev/ggml-server-example
+# https://llm.datasette.io/en/stable/
+# git+https://github.com/PawanOsman/ChatGPT  ## https://github.com/PawanOsman/ChatGPT#self-host-your-own-api
+# git+https://github.com/stanfordnlp/dspy
+# git+https://github.com/Codium-ai/pr-agent  ## https://github.com/Codium-ai/pr-agent/blob/main/INSTALL.md#method-5-run-as-a-github-app
+# git+https://github.com/mlc-ai/mlc-llm
+# git+https://github.com/mlc-ai/web-llm  ## javascript web interface for mlc-llm
+# git+https://github.com/chenhunghan/ialacol  ## kubernetes LocalAI

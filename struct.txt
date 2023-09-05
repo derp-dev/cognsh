@@ -14,3 +14,10 @@ py manage.py runserver # port number 8000 by default
 py manage.py startapp cognsh
 mkdir templates && cd templates && echo loremipsum > index.html
 
+________
+cd textgen-webui
+--loader exllama
+
+
+________
+pip install langsmith && conda install langchain -c conda-forge
