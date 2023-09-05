@@ -24,6 +24,7 @@ mod-wsgi # see struct.txt for pre-pip structs
 mod_ssl # see struct.txt for pre-pip structs
 mod_rewrite # see struct.txt for pre-pip structs
 mod_deflate # see struct.txt for pre-pip structs
+llamacpp
 llama-cpp-python
 google.generativeai
 cohere
@@ -34,6 +35,8 @@ aiohttp
 asgiref
 litellm
 openllm
+txtai  ## https://neuml.github.io/txtai/examples/
+agent-protocol # AKA e2B agent-protocol  ## https://agentprotocol.ai/sdks/python
 # langchain  ## see struct.txt for pre-pip structs
 git+https://github.com/go-skynet/LocalAI
 git+https://github.com/oobabooga/text-generation-webui
@@ -41,6 +44,7 @@ git+https://github.com/kubernetes-sigs/kind
 git+https://github.com/stochasticai/xTuring
 git+https://github.com/xlang-ai/xlang
 git+https://github.com/imartinez/privateGPT
+git+https://github.com/enricoros/big-agi
 
 
 
@@ -52,3 +56,5 @@ git+https://github.com/imartinez/privateGPT
 # git+https://github.com/mlc-ai/mlc-llm
 # git+https://github.com/mlc-ai/web-llm  ## javascript web interface for mlc-llm
 # git+https://github.com/chenhunghan/ialacol  ## kubernetes LocalAI
+# git+https://github.com/closedai-project/closedai     ## https://github.com/closedai-project/closedai/tree/main/examples/custom_pipeline
+

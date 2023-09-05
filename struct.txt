@@ -1,3 +1,7 @@
+1) git clone the repo
+2) cd into the repo
+3) preform pre-pip install steps (see requirements.txt)
+4) follow struct.txt to complete installation steps
 
 ________
 !#bin/bash
@@ -21,3 +25,61 @@ cd textgen-webui
 
 ________
 pip install langsmith && conda install langchain -c conda-forge
+
+
+________
+llama.cpp
+I believe you need to add -ngl N, --n-gpu-layers argument
+N_GPU_LAYERS
+
+
+________
+localai / ialacol
+```*args(example)
+replicas: 1
+deployment:
+  image: quay.io/chenhunghan/ialacol-cuda12:latest
+  env:
+    DEFAULT_MODEL_HG_REPO_ID: TheBloke/Starcoderplus-Guanaco-GPT4-15B-V1.0-GGML
+    DEFAULT_MODEL_FILE: starcoderplus-guanaco-gpt4.ggmlv1.q4_0.bin
+    GPU_LAYERS: 40
+resources:
+  {}
+model:
+  persistence:
+    size: 20Gi
+    accessModes:
+      - ReadWriteOnce
+    storageClassName: ~
+service:
+  type: ClusterIP
+  port: 8000
+  annotations: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
+```
+
+
+________known models
+- [LLaMa 2 variants](https://huggingface.co/meta-llama)
+- [OpenLLaMA variants](https://github.com/openlm-research/open_llama)
+- [StarCoder variants](https://huggingface.co/bigcode/starcoder)
+- [WizardCoder](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
+- [StarChat variants](https://huggingface.co/HuggingFaceH4/starchat-beta)
+- [MPT-7B](https://www.mosaicml.com/blog/mpt-7b)
+- [MPT-30B](https://huggingface.co/mosaicml/mpt-30b)
+- [Falcon](https://falconllm.tii.ae/)
+
+________
+swagger + openAPI
+https://swagger.io/docs/specification/about/
+https://editor.swagger.io/
+
+________
+https://github.com/browserless/chrome
+docker run -p 3000:3000 browserless/chrome
+Visit http://localhost:3000/ to use the interactive debugger.
+
+________
+

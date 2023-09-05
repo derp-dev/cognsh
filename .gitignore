@@ -1,0 +1,236 @@
+# Windows apps
+scoop/
+WezTerm/
+Telegram/
+.vscode/
+textadept/
+python/
+gh_apps/
+win_apps/
+jupyter-pytorch/
+cognic/
+cognosis/
+xongptshnvm/
+apps/appfiles/
+apps/
+
+# Scratch
+jupyter/
+macros/
+old/
+scratch/
+*.scratch/
+docs/help/
+
+# GitHub apps
+aim/
+agency/
+aider/
+ama_prompting/
+anything-llm/
+beebot/
+BMTools/
+code-it/
+codeinterpreter-api/
+cognic/
+cognosis/
+devopsgpt/
+free-auto-gpt/
+git-llm/
+gorilla/
+gpt-prompt-engineer/
+gpt4free/
+local-llm-langchain/
+localai/
+meili/
+openailauth/
+pandas-ai/
+privategpt/
+quivr/
+researcher-gpt/
+semantickernal/
+socialagi/
+taotie/
+
+
+# Byte-compiled / optimized / DLL files
+*.chainlit/
+*.py[cod]
+*\$py.class
+*__pycache__/
+*.so
+
+# Celery stuff
+celerybeat.pid
+celerybeat-schedule
+
+# C extensions
+*.so
+
+# Compiled output
+/bin/
+/build/
+/dist/
+/node_modules/
+/out/
+/target/
+
+# Cython debug symbols
+cython_debug/
+
+# Database files
+*.db
+*.sqlite
+
+# Dependency management
+/venv/
+/pipenv/
+/poetry.lock
+
+# Development environment configuration
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+
+# Django stuff
+.db.sqlite3
+.db.sqlite3-journal
+local_settings.py
+*.log
+
+# Editor/IDE files
+.idea/
+.vs/
+*.swp
+*~
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# IPython
+ipython_config.py
+profile_default/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+jupyter/
+jupyter-pytorch/
+jupyter-pytorch/
+jupyter/
+
+# Logs and temporary files
+/logs/
+/tmp/
+*.log
+
+# mkdocs documentation
+/site
+
+# mypy
+.dmypy.json
+.mypy_cache/
+dmypy.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# PEP 582
+__pypackages__/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# PyCharm
+.idea/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pytype static type analyzer
+.pytype/
+
+# pyenv
+# .python-version
+
+# pdm
+# pdm.lock
+
+# Poetry
+# poetry.lock
+
+# Pyre type checker
+.pyre/
+
+# Rope project settings
+.ropeproject
+
+# SageMath parsed files
+*.sage.py
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Translations
+*.mo
+*.pot
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+.cover/
+.hypothesis/
+.nox/
+.pytest_cache/
+cover/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Other files
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-delete-this-directory.txt
+pip-log.txt
