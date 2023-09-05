@@ -4,6 +4,22 @@
 4) follow struct.txt to complete installation steps
 
 ________
+# <!---- python & nvidia for WSL2---->
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential -y
+apt-get remove torch torchvision torchaudio cudatoolkit=11.1 -y
+# get a copy of micromamba, miniconda, or anaconda
+conda update conda && conda install pip
+py -m pip install --upgrade pip
+py -m pip install --upgrade setuptools
+py -m pip install --upgrade wheel
+py -m pip install --upgrade pipenv
+py -m pip install --upgrade poetry
+conda install -c conda-forge torch torchvision torchaudio
+py -m pip install nvidia-pyindex --extra-index-url https://pypi.ngc.nvidia.com
+py -m pip install nvidia-cuda-runtime-cu12
+sudo apt-get install nvidia-cuda-toolkit -y && sudo apt-get install nvim -y
+
+________
 !#bin/bash
 py -m pip install nvidia-pyindex --extra-index-url https://pypi.ngc.nvidia.com
 py -m pip install nvidia-cuda-runtime-cu12
