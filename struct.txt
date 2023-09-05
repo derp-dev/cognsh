@@ -2,8 +2,10 @@
 2) cd into the repo
 3) preform pre-pip install steps (see requirements.txt)
 4) follow struct.txt to complete installation steps
+5) cd to main and rename .env.dev to .env - fill out everything you are able to
 
-________
+```bash
+________struxt.txt
 # <!---- python & nvidia for WSL2---->
 sudo apt-get install python3-dev default-libmysqlclient-dev build-essential -y
 apt-get remove torch torchvision torchaudio cudatoolkit=11.1 -y
@@ -39,14 +41,21 @@ cd textgen-webui
 --loader exllama
 
 
-________
+________<!--- best to install the following manually before doing pip install -r --->
 pip install langsmith && conda install langchain -c conda-forge
-
-
-________
+django[all]
+mysqlclient
+mariadb[all
+mod-wsgi 
+mod_ssl
+mod_rewrite
+mod_deflate
+xonsh
+```
+________<!--- misc. structs incl. docker and cli args + web-links --->
 llama.cpp
-I believe you need to add -ngl N, --n-gpu-layers argument
-N_GPU_LAYERS
+I believe you need to add `-ngl N, --n-gpu-layers` argument
+`N_GPU_LAYERS`
 
 
 ________
@@ -75,7 +84,6 @@ nodeSelector: {}
 tolerations: []
 affinity: {}
 ```
-
 
 ________known models
 - [LLaMa 2 variants](https://huggingface.co/meta-llama)

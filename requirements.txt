@@ -45,6 +45,7 @@ git+https://github.com/stochasticai/xTuring
 git+https://github.com/xlang-ai/xlang
 git+https://github.com/imartinez/privateGPT
 git+https://github.com/enricoros/big-agi
+git+https://github.com/xtekky/gpt4free.git
 
 
 
